@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import HeroCard from "./components/HeroCard"; // Ganti dengan path yang sesuai
+import HeroCard from "./components/HeroCard";
 
 export default function Home() {
   const [heroes, setHeroes] = useState([]);
@@ -23,7 +23,7 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-[#353535] min-h-screen p-8"> {/* Kode warna latar belakang gelap */}
+    <div className="bg-[#353535] min-h-screen p-8">
       <h1 className="text-5xl font-extrabold text-[#ffffff] text-center mb-12">
         Lost Saga XYZ
       </h1>
