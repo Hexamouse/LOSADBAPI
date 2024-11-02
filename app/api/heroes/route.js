@@ -1,5 +1,4 @@
-// app/api/heroes/route.js
-import heroes from '../../../data/heroes'; // Pastikan path ini benar
+import heroes from '../../../data/heroes'; 
 
 export async function GET() {
   return new Response(JSON.stringify(heroes), {
