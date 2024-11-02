@@ -1,4 +1,3 @@
-// data/heroes.js
 const heroes = [
   {
       id: 1,
